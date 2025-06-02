@@ -5,7 +5,7 @@ let cadenaTexto = "Hola, mundo";
 let valorBooleano = true;
 let arregloNumeros = [1, 2, 3, ""];
 let objetoPersona = { nombre: "Ana", edad: 30 };
-let valorIndefinido;
+let valorIndefinid;
 let valorNulo = null;
 const mes = "Junio";
 
