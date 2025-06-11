@@ -1,13 +1,15 @@
 // Declaración de variables
-let anioNacimiento = 2008;
-let numeroDecimal = 3.14;
-let cadenaTexto = "Hola, mundo";
-let valorBooleano = true;
-let arregloNumeros = [1, 2, 3, ""];
-let objetoPersona = { nombre: "Ana", edad: 30 };
-let valorIndefinid;
-let valorNulo = null;
-const mes = "Junio";
+var num = 18; //Menos segura
+let anioNacimiento = 2008; //Tipo numérico INT
+let numeroDecimal = 3.14; //Numérico con parte decimal FLOAT
+let cadenaTexto = "Hola, mundo"; // string
+let valorBooleano = true; //Valor Verdadero o falso(0 , 1) Boolean
+let arreglo = [1, 2, 3, true, ["Hola"]]; 
+//Array - Lista de elementos 
+let objetoPersona = { nombre: "Ana", edad: 30 }; //Object - Diccionario
+let valorIndefinid; //Sin valor asignado - undefined
+let valorNulo = null; // Valor Nulo - Null
+const mes = "Junio"; //Constante - No Varía
 
 // Funciones para mostrar cada valor con alert()
 function mostrarAnioNacimiento() {
